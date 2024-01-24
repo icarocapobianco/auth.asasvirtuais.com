@@ -2,11 +2,10 @@ import { PropsWithChildren } from 'react'
 import { Center, Container, HStack, Heading, Box, Link, BoxProps, Button } from '@chakra-ui/react'
 import ThemeButton from '@/components/theme-button'
 import Icon from '@/components/icon'
-import { colorProps } from '@/chakra/theme'
 
 function Navbar( { children, ...props } : PropsWithChildren<BoxProps> ) {
     return (
-        <Box as='nav' shadow='md' w='100%' {...props} {...colorProps()}>
+        <Box as='nav' shadow='md' w='100%' {...props}>
             <Container maxW='container.lg'>
                 <Center justifyContent='space-between' minH='72px'>
                     <Heading as={Link} href='/'
