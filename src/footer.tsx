@@ -4,11 +4,9 @@ import { Center, Container, HStack, Heading, Box, Link, BoxProps } from '@chakra
 import Icon from 'asasvirtuais/src/components/icon'
 import ThemeButton from 'asasvirtuais/src/components/theme-button'
 
-import { colorProps } from 'asasvirtuais/src/chakra/theme'
-
 export function Footer( { children, ...props } : PropsWithChildren<BoxProps> ) {
     return (
-        <Box as='nav' mt={12} shadow='md' w='100%' {...props} {...colorProps()}>
+        <Box as='nav' mt={12} shadow='md' w='100%' {...props}>
             <Container maxW='container.lg'>
                 <Center justifyContent='space-between' minH='72px'>
                     <Heading as={Link} href='/'
