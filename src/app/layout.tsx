@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-import ChakraProvider from 'asasvirtuais/src/chakra/provider'
+import ChakraProvider from '@/chakra/provider'
 import Wrapper from 'asasvirtuais/src/components/wrapper'
 
 import Navbar from '@/navbar'
