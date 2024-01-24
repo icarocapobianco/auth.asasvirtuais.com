@@ -17,7 +17,7 @@
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@vercel/speed-insights": "^1.0.2",
-    "asasvirtuais": "0.0.1",
+    "asasvirtuais": "0.0.2",
     "auth0": "^4.2.0",
     "framer-motion": "^10.17.9",
     "next": "14.1.0",
